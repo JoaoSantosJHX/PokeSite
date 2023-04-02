@@ -1,0 +1,104 @@
+body {
+	background-image: url("planodefundo.jpg");
+	background-color: rgba(0, 0, 255, 0.6); /* azul com 60% de transparência */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	  
+	font-family: Arial, sans-serif;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+h1 {
+	font-family: "Pokemon", sans-serif; /* Use a fonte Pokemon */
+	color: #FFCC00; /* Define a cor amarela */
+	text-shadow: 1px 1px #3265B0, -1px -1px #3265B0, 1px -1px rgb(50, 101, 176), -1px 1px #3265B0; /* Define o contorno azul */ 
+	
+  }
+  
+#titulo_pokemon {
+	max-width: 100%;
+	height: auto;
+}
+#header {
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			text-align: center;
+			max-width: 100%;
+			height: auto;
+			/*margin-top: 20px;
+            transform: scale(0.5);  Diminui a imagem em 30% */
+}
+
+.card {
+	display: inline-block;
+	width: 20%;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.774);
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+	display: block;
+	margin: 0 auto;
+	max-width: 300px;
+	height: auto;
+}
+
+.card h2 {
+	text-align: center;
+	font-size: 24px;
+	margin-top: 10px;
+}
+
+.card .type {
+	display: block;
+	text-align: center;
+	padding: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	color: white;
+	font-weight: bold;
+}
+
+.type-water {
+	background: linear-gradient(to right, #4cb2d4, #7cd7e2);
+}
+
+.type-fire {
+	background: linear-gradient(to right, #f95c5a, #ffb95a);
+}
+
+.type-grass {
+	background: linear-gradient(to right, #7ac74c, #a0db8e);
+}
+
+.type-electric {
+	background: linear-gradient(to right, #ffce00, #ffd633);
+}
+
+.type-psychic {
+	background: linear-gradient(to right, #f85888, #ff8bbd);
+}
+
+.type-ice {
+	background: linear-gradient(to right, #63c4e4, #83a4d4);
+}
+
+.card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.3);
+  }
+  
+  
+  
